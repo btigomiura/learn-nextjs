@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "pnpm dev",
+            "cwd": "${workspaceFolder}/nextjs-dashboard",
+            "name": "Run local server.",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "pnpm build",
+            "cwd": "${workspaceFolder}/nextjs-dashboard",
+            "name": "Build project.",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
